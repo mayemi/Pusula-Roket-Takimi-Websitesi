@@ -20,11 +20,11 @@ body {
 }
 .header .navbar #takimlogo {
     width: 6%;
-    padding-right: 30px;
+    padding-right: 5%;
 }
 .header .navbar {
     max-height: 5%;
-    border: 2px solid rgba(0, 0, 0, 0.562);
+    border: 5% solid rgba(0, 0, 0, 0.562);
 }
 .header .navbar #okullogo {
     position: absolute;
@@ -32,7 +32,7 @@ body {
     width: 6%;
 }
 .header .navbar a{
-    font-size: 20px;
+    font-size: 130%;
     transition: font-size 0.4s ease-in-out, color 0.4s ease-in-out;
     position: relative;
     transform: translateY(-170%);
@@ -47,10 +47,9 @@ body {
     width: 3%;
 }
 .header .navbar a:hover{
-    font-size: 24px; /*font-size ayrı*/
+    font-size: 145%;
     transition: font-size 0.4s ease-in-out;
     text-decoration: underline;
-    height: 100%;
     color: azure;
 }
 .info .card-1 {
@@ -58,13 +57,14 @@ body {
     width: 60%;
     height: 55vh;
     border-radius: 5.3%;
+    left: 0.75%;
     position: relative;
 }
 .info .card-1 .takim{
     display: block;
     text-align: left;
     width: 10%;
-    font-size: 90px;
+    font-size: 600%;
     margin-top: 10%;
     padding-top: 5%;
     padding-left: 3.333%; 
@@ -76,7 +76,7 @@ body {
 }
 .info .card-1 h3 {
     color: azure;
-    font-size: 36px;
+    font-size: 230%;
     position: absolute;
     top: 4%;
     left: 45%;
